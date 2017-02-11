@@ -1,0 +1,178 @@
+<!--{% extends "blog/base.html" %}
+
+<title> {% block title %}Sign Up{% endblock %}</title>
+
+{% block content %}
+
+ <div class="container">
+		<div class="row">
+			<div class="col-md-3">
+
+			</div>
+			<div class="col-md-6" style = "margin-top:110px;">
+				<div class="panel panel-default">
+				   	<div >
+					  	<h2  align="center">Sign Up </h1>
+					</div>
+					<div class="panel-body">
+						<form method="post" action="" class="form-horizontal" role="form" enctype="multipart/form-data">{% csrf_token %}
+							<div class="form-group">
+								<label for="inputFirstName" class="col-sm-1 control-label"></label>
+								<div class="col-sm-5">
+									<input type="text" id="firstname" name="firstname" class="form-control" placeholder="First Name" required autofocus>
+								</div>
+
+								<div class="col-sm-5">
+									<input type="text" id="lastname" name="lastname" class="form-control" placeholder="Last Name" required autofocus>
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label for="inputEmail3" class="col-sm-1 control-label"></label>
+								<div class="col-sm-10">
+									<input type="text" id="username" name="username" class="form-control" placeholder="User Name" required autofocus>
+
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="inputEmail3" class="col-sm-1 control-label"></label>
+								<div class="col-sm-10">
+									<input type="text" id="email" name="email" class="form-control" placeholder="Email" required autofocus>
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="inputPassword3" class="col-sm-1 control-label"></label>
+								<div class="col-sm-10">
+									<input type="password" id="password" name="password" class="form-control" placeholder="Password" required>
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label for="inputPassword3" class="col-sm-1 control-label"></label>
+								<div class=" col-sm-10">
+									<input type="password" id="confirmpassword" name="confirmpassword" class="form-control" placeholder="Re-Type Your Password" required>
+								</div>
+							</div>
+
+							<div class="form-group">
+							<div class="col-sm-offset-1 col-sm-5">
+							  <label for="sel1" class="control-label">Gender</label>
+							</div>
+							  <div class="col-sm-5">
+							  <select class="form-control" id="sel1" name="gender" required="">
+							    <option value="m">Male</option>
+							    <option value="f">Female</option>
+							  </select>
+							  </div>
+							</div>
+
+							<div class="form-group">
+								<div class="col-sm-offset-1 col-sm-5">
+								  <label for="sel2" class="control-label">Year</label>
+								</div>
+							  <div class="col-sm-5">
+								  <select class="form-control" id="sel2" name="year" required="">
+								    <option value="1st">1st</option>
+								    <option value="2nd">2nd</option>
+								    <option value="3rd">3rd</option>
+								    <option value="4th">4th</option>
+								  </select>
+							  </div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-offset-1 col-sm-5">
+								  <label for="sel2" class="control-label">Semester</label>
+								</div>
+							  <div class="col-sm-5">
+								  <select class="form-control" id="sel2" name="semester" required="">
+								    <option value="1st">1st</option>
+								    <option value="2nd">2nd</option>
+								  </select>
+							  </div>
+							</div>
+							<div class="form-group">
+
+								<div class="col-sm-10">
+									<input type="text" id="username" name="std_id" class="form-control" placeholder="Id" required autofocus>
+
+								</div>
+							</div>
+							<div class="form-group">
+
+								<div class="col-sm-10">
+									<input type="text" id="username" name="session" class="form-control" placeholder="Session" required autofocus>
+
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-offset-1 col-sm-5">
+								  <label for="sel2" class="control-label">Dept</label>
+								</div>
+								  <div class="col-sm-5">
+								  	<select class="form-control" id="sel2" name="dept_id" required="">
+								    	<option value="1">CSE</option>
+								    	<option value="3">ME</option>
+								    	<option value="4">CE</option>
+								    	<option value="2">EEE</option>
+								    	<option value="5">IPE</option>
+								    	<option value="6">TE</option>
+								    	<option value="7">Arch</option>
+								  </select>
+								  </div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-offset-1 col-sm-10">
+									<label for="sel2" class="control-label">Address</label>
+								</div>
+							</div>
+
+							<div class="form-group">
+								<div class="col-sm-offset-1 col-sm-10">
+									<textarea class="form-control" rows="5" id="comment" name="address"></textarea>
+
+								</div>
+							</div>
+
+							<div class="form-group">
+								<div class="col-sm-offset-1 col-sm-10">
+									<input type="text" id="contact" name="contact" class="form-control" placeholder="Contact No" required>
+
+								</div>
+							</div>
+
+
+							<div class="form-group">
+								<div class="col-sm-offset-1 col-sm-10">
+
+								<button type="button" id="back-btn" class="btn"><a href="login">
+								Back</a>
+								</button>
+								<button type="submit" class="btn blue pull-right">
+								Submit
+								</button>
+
+								</div>
+							</div>
+
+						</form>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-3">
+
+			</div>
+
+		</div>
+	</div>
+
+	<div id="headerwrap">
+
+	      <br />
+	      <br />
+	      <br />
+
+    </div>
+
+
+{% endblock %}-->

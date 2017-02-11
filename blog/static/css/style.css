@@ -1,0 +1,38 @@
+/*======Navigation Section======*/
+.navbar{background:#22252c;
+border-bottom:10px solid #30343c;
+margin-bottom: 0px;}
+.navbar a{font-family: 'Lato', sans-serif;
+}
+.navbar-default .navbar-nav > li > a{color:#ffffff;}
+.navbar-brand{font-weight:700;
+font-size:25px;
+}
+.navbar-default .navbar-brand{color:#ffffff;}
+.navbar-default .navbar-nav > li > a:hover{color:#cccccc;
+background:#DF4754;}
+.navbar-default .navbar-brand:hover{color:#cccccc}
+.navbar-default .navbar-nav > li > a:focus{color:#fff;
+background:#DF4754;}
+.navbar-default {
+    border-left: transparent;
+	border-right: transparent;
+}
+.navbar {
+    border-radius: 0px;
+}
+/*======Header  Section======*/
+.header{padding:120px 0;
+background:url(images/headerbg.jpg) no-repeat center center;
+background-size:cover;
+width:100%;
+}
+.header h1{color:#fff; font-family: 'Pacifico', cursive;
+font-size:90px;}
+.header p{color:#fff;
+font-size:20px;}
+
+.navbar-header img{
+    width: 20px;
+    height: 20px;
+}

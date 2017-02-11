@@ -1,0 +1,13 @@
+{% extends 'blog/base.html' %}
+{% block content %}
+    {% for u in userr %}
+        <div >
+            <div >
+                {{ u.email }}
+            </div>
+
+
+
+        </div>
+    {% endfor %}
+{% endblock %}
